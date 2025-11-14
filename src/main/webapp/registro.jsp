@@ -15,14 +15,14 @@
     <main class="container" style="padding:40px 0;">
     <div class="text-center">
         <h2>Criar Conta</h2>
-     </div>   
+       
         <%-- 🚨 MUDANÇA: Exibir mensagem de ERRO do HospedeServlet (via RequestDispatcher) --%>
         <% 
 String erroCadastro = (String) request.getAttribute("erroCadastro");
            if (erroCadastro != null) { %>
             <p style="color: red; font-weight: bold;"><%= erroCadastro %></p>
         <% } %>
-
+</div> 
         <form action="HospedeServlet" method="post">
             <label for="nome">Nome Completo:</label>
             <input type="text" id="nome" name="nome" required>
