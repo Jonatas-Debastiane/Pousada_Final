@@ -162,6 +162,11 @@ header {
   
 }
 
+.text-center{
+	text-align: center;
+	
+}
+
 /* 📋 Lista de comodidades */
 .comodidades {
   list-style: none;

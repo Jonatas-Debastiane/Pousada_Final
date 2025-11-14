@@ -11,9 +11,11 @@
 <body>
     <%@ include file="_header.jsp" %>
     
+    
     <main class="container" style="padding:40px 0;">
+    <div class="text-center">
         <h2>Criar Conta</h2>
-        
+     </div>   
         <%-- 🚨 MUDANÇA: Exibir mensagem de ERRO do HospedeServlet (via RequestDispatcher) --%>
         <% 
 String erroCadastro = (String) request.getAttribute("erroCadastro");

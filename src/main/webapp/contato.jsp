@@ -12,6 +12,7 @@
     <body>
     <%@ include file="_header.jsp" %>
     <main class="container" style="padding:40px 0;">
+    <div class="text-center">
     <h2>Fale Conosco</h2>
     <p>Você pode entrar em contato conosco pelos seguintes canais:</p>
     <ul>
@@ -21,6 +22,7 @@
     </ul>
 
     <h3>Envie sua mensagem</h3>
+    </div>
     <form id="contactForm">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" required>
